@@ -1,7 +1,21 @@
 package com.gx.entity;
 
-public class HosOffice {
-   private int id;
+public class Office {
+	private int start;
+	private int page;
+   public int getStart() {
+		return start;
+	}
+	public void setStart(int start) {
+		this.start = start;
+	}
+	public int getPage() {
+		return page;
+	}
+	public void setPage(int page) {
+		this.page = page;
+	}
+private int id;
    private String officesName;
    private String hospitalName;
    private String doctorNum;

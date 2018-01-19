@@ -9,10 +9,10 @@
 			<br />
 			<br />
 			<br />
-			<li><a class="list-group-item" href="/ssm_pro/index"><font  color="#fff">首页</font></a></li>
-			<li><a class="list-group-item" href="/ssm_pro/hosIndex"><font  color="#fff">医院挂号</font></a></li>
-			<li><a class="list-group-item" href="/ssm_pro/officeIndex/1"><font color="#fff">科室挂号</font></a></li>
-			<li><a class="list-group-item" href="/ssm_pro/doctorIndex/1"><font color="#fff">医生挂号</font></a></li>
+			<li><a class="list-group-item" href="/hos/index"><font  color="#fff">首页</font></a></li>
+			<li><a class="list-group-item" href="/hos/hosIndex"><font  color="#fff">医院挂号</font></a></li>
+			<li><a class="list-group-item" href="/hos/officeIndex/1"><font color="#fff">科室挂号</font></a></li>
+			<li><a class="list-group-item" href="/hos/doctorIndex/1"><font color="#fff">医生挂号</font></a></li>
 				
 			
 			<!-- <li><a class="list-group-item" href="/ssm_pro/orderIndex"><font color="#fff">快速预约</font></a></li> -->

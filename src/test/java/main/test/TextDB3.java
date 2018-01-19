@@ -12,9 +12,9 @@
 //						"classpath:spring/spring-service.xml",
 //						"classpath:spring/spring-web.xml"});
 //        
-////		CommonUserController con = new CommonUserController();
-////		con.setCommonUserService((CommonUserService)context.getBean("commonUserServiceImpl"));;
-////		con.login("343195357@qq.com", "BFADFD06C0FE7FEED44A175EE1C09259");
+//		CommonUserController con = new CommonUserController();
+//		con.setCommonUserService((CommonUserService)context.getBean("commonUserServiceImpl"));;
+//		con.login("343195357@qq.com", "BFADFD06C0FE7FEED44A175EE1C09259");
 //        
 //	}
 //

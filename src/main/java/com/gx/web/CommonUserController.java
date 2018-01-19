@@ -21,18 +21,23 @@ public class CommonUserController {
 	}
 	
 	@RequestMapping(value = "/login", method = RequestMethod.POST)
-	public void login(String userEmail,String userPassWord){
+	public String login(String userEmail,String userPassword){
 		
 		CommonUser commonUser = commonUserService.getUserByEmail(userEmail);
 		if(commonUser == null){
 			System.out.println("用户未注册");
 		}else{
-			if(commonUser.getUserPassword().equals(userPassWord)){
+			if(commonUser.getUserPassword().equals(userPassword)){
 				System.out.println("登录成功");
+				return "hospital/hosIndex";
 			}else{
 				System.out.println("登录失败");
+				
 			}
+		
 		}
+		return "user/login";
 		
 	}
+	
 }
